@@ -7,6 +7,7 @@ int Lpyra();
 int Rpyra();
 int main(){
 int b;
+do{
 printf("Hello welcome to star pattern genarator...\n");
 printf("Which patter do you want:\n"); //From this part the user will allow to Select the pattern they need
 printf("1.left alligned pattern\n2.Right alligned pattern\n3.Center alligned pattern.\n4.Cross sign\n5.Left Pyramid\n6.Right Pyramid\n");
@@ -32,6 +33,7 @@ case 6:
     Rpyra();
     break;
 }
+}while(b==1||b==2||b==3||b==4||b==5||b==6);
 }
 int left(){
 int a,i,j;
